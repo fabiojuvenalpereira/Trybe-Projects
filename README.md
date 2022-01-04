@@ -1,5 +1,6 @@
 # Trybe Projects
 *EN*
+
 This repository contains all the projects developed by me while studying at [Trybe](https://www.betrybe.com/) :rocket:
 
 _"Trybe is a web development school that has a genuine commitment to the professional success of its students. With the Shared Success Model, those who study at Trybe have the option of paying only when they are already working._
@@ -7,6 +8,7 @@ _"Trybe is a web development school that has a genuine commitment to the profess
 _There are more than 1500 hours of training that covers fundamentals of web development, development, Front-end, Back-end, computer science, agile methodologies and soft skills."_
 
 *PT*
+
 Este repositório contém todos os projetos realizados por mim enquanto estudante da [Trybe](https://www.betrybe.com/) :rocket:
 
 _"A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes. Com o Modelo de Sucesso

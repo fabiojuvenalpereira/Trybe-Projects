@@ -51,7 +51,7 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 - [x] _[Project - Aggregations](Back-End/sd-013-c-mongodb-aggregations)_
 - [x] _[Project - Talker Manager](Back-End/sd-013-c-project-talker-manager)_
 - [ ] _[Project - Store Manager](Back-End/sd-013-c-store-manager)_
-- [ ] _[Project - Cookmaster]()_
+- [ ] _[Project - Cookmaster](Back-End/sd-013-c-cookmaster)_
 - [ ] _[Project - Stranger Things]()_
 - [ ] _[Project - Blog API]()_
 - [ ] _[Project - Webchat]()_
@@ -65,4 +65,3 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 - [ ] _[Project - Algorithms]()_
 - [ ] _[Project - Restaurant Orders]()_
 - [ ] _[Project - TING - Trybe Is Not Google]()_
-- [ ] 

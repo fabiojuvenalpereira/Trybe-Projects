@@ -18,18 +18,15 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 
 ## Fundamentals - Web Development :white_check_mark:
 
-- [x] _[Project - Lessons Learned](Fundamentals/01-lessons-learned)_
-- [x] _[Project - Playground Functions](Fundamentals/02-playground-functions)_
-- [x] _[Project - Pixels Art](Fundamentals/03-pixels-art)_
-- [x] _[Project - Todo List](Fundamentals/04-todo-list)_
-- [x] _[Project - Meme Generator](Fundamentals/05-meme-generator)_
-- [x] _[Project - Color Guess](Fundamentals/06-color-guess)_
-- [x] _[Project - Mistery Letter](Fundamentals/07-mistery-letter)_
-- [x] _[Project - Trybewarts](Fundamentals/08-trybewarts)_
-- [x] _[Project - JS Unit Tests](Fundamentals/09-js-unit-tests)_
-- [x] _[Project - Zoo Functions](Fundamentals/10-zoo-functions)_
-- [x] _[Project - Shopping Cart](Fundamentals/11-shopping-cart)_
-- [x] _[Project - Jest Async e Mocking](Fundamentals/12-jest-async-mocking)_
+- [x] _[Project - Lessons Learned](Fundamentals/sd-013-b-project-lessons-learned)_
+- [x] _[Project - Playground Functions](Fundamentals/sd-013-b-project-playground-functions)_
+- [x] _[Project - Pixels Art](Fundamentals/sd-013-b-project-pixels-art)_
+- [x] _[Project - Todo List](Fundamentals/sd-013-b-project-todo-list)_
+- [x] _[Project - Trybewarts](Fundamentals/sd-013-b-project-trybewarts)_
+- [x] _[Project - JS Unit Tests](Fundamentals/sd-013-b-project-jest)_
+- [x] _[Project - Zoo Functions](Fundamentals/sd-013-b-project-zoo-functions)_
+- [x] _[Project - Shopping Cart](Fundamentals/sd-013-b-project-shopping-cart)_
+- [x] _[Project - Jest Async e Mocking](Fundamentals/sd-013-b-project-jest)_
 
 ## Front-end Development :white_check_mark:
 

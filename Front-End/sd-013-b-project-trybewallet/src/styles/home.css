@@ -1,0 +1,130 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.main-page {
+  background-color: #e9e9e9;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-main-page {
+  background-color: #1a8ebc;
+  height: 5em;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.main-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%;
+}
+
+.box-content {
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.253);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  max-width: 50%;
+  width: 350px;
+}
+
+.error {
+  align-items: center;
+  background-color: rgb(243, 98, 98);
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.253);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  max-width: 50%;
+  width: 350px;
+}
+
+.success {
+  align-items: center;
+  background-color: rgb(98, 243, 154);
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.253);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  max-width: 50%;
+  width: 350px;
+}
+
+
+.main-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.input-form-base {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1a8ebc 4%);
+  border: none;
+  border-bottom: solid 1px #1a8ebc;
+  color: #0e4762;
+  display: block;
+  margin: 15px;
+  padding: 10px 0;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  width: 100%;
+}
+
+.pr-color::placeholder {
+  color: #1a8ebc;
+}
+
+.input-form-base:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-form-base:valid {
+  border: none;
+  box-shadow: none;
+}
+
+.login-button {
+  border-radius: 5px;
+  margin-top: 1em;
+  padding: 1em 2em;
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.login-button:hover {
+  background-color: #0e6252;
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.login-button:active {
+  background-color: #0e6252;
+  transform: scale(1);
+  transition: 0.2s;
+}

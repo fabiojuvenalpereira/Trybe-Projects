@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap') ;
+
+* {
+  border: 0;
+  font-family: montserrat, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* .main-content {
+  background-color: yellow;
+} */
+
+.main-wallet-div {
+  background-color: rgba(167, 167, 167, 0.849);
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.wallet-header {
+  align-items: center;
+  background-color: #1a8ebc;
+  display: flex;
+  height: 5em;
+  justify-content: space-between;
+  top: 0;
+  width: 100vw;
+}
+
+.title-div {
+  background-color: #b1c6ce;
+  margin-left: 2em;
+}
+
+.email-header {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  margin-right: 2em;
+}
+
+.total-value {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  text-align: right;
+  width: 50%;
+}
+
+/* mini Header */
+.semi-header {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  height: 3em;
+  justify-content: space-around;
+}
+
+.input-text-area {
+  border-radius: 4px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.9);
+  height: 1.5em;
+  margin-left: 1em;
+  text-align: center;
+  width: auto;
+}
+
+.input-text-area:focus , :valid {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-text-area:focus {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.input-select-area {
+  background-color: white;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.7);
+  height: 1.5em;
+  margin-left: 1em;
+  transition: 0.2s;
+}
+
+.input-select-area:active {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.2s;
+}
+
+.input-select-area option {
+  background: #f2f2f3;
+}
+
+.add-expense-btn {
+  background-color: rgb(159, 249, 255);
+  border-radius: 0.5em;
+  padding: 0.6em;
+}
+
+.add-expense-btn:hover {
+  background-color: rgb(28, 175, 40);
+}
+
+.add-expense-btn:active {
+  background-color: rgb(175, 28, 28);
+}
+
+
+/* table */
+.expenses-tabble table {
+  border-collapse: collapse;
+  width: 100vw;
+}
+
+.table-content {
+  background-color: rgb(254, 255, 255);
+  table-layout: fixed;
+  text-align: center;
+  /* text-overflow: ellipsis; */
+}
+
+.table-content th {
+  background-color: #ffffff;
+  border-bottom: solid 1.2px rgba(0, 0, 0, 0.204);
+  padding: 0.5em 0;
+}
+
+.title-table {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.table-content td {
+  padding: 1em 0;
+}
+
+.table-items {
+  border-bottom: solid 0.5px rgba(0, 0, 0, 0.204);
+}
+
+.table-items:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.table-column-buttons {
+  margin: auto;
+}
+
+.edit-button {
+  background-color: rgb(0, 102, 255);
+  border-radius: 4px;
+  margin-right: 1em;
+  padding: 0.5em;
+  transform: scale(0.98);
+  transition: 0.2s;
+}
+
+.delete-button {
+  background-color: rgb(0, 60, 255);
+  border-radius: 4px;
+  margin-left: 1em;
+  padding: 0.5em;
+  transform: scale(0.98);
+  transition: 0.2s;
+}
+
+.edit-button:hover {
+  background-color: red;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.delete-button:hover {
+  background-color: red;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1);
+  transition: 0.2s;
+}
+
+.edit-button:active {
+  background-color: rgb(30, 255, 0);
+}
+
+.delete-button:active{
+  background-color: rgb(30, 255, 0);
+}
+

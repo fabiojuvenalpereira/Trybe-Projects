@@ -1,0 +1,231 @@
+body {
+  background-color: #252525;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: wrap;
+}
+
+/* tela de movies */
+.pai {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-movie-content {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.add-button {
+  align-items: center;
+  align-self: center;
+  background-color: rgb(33, 76, 126);
+  border-radius: 5px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  width: 10%;
+}
+
+.add-button:hover, :visited, a {
+  border-radius: 20px;
+  color: #201e1e;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card-movie {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  box-shadow: 5px black;
+  filter: blur(0.4px);
+  transform: scale(0.9);
+  transition: 0.5s;
+  width: 350px;
+}
+
+.card-movie:hover {
+  box-shadow: 0.2px 50px 50px black;
+  filter: brightness(110%);
+  transform: scale(1);
+  transition: 0.3s;
+}
+
+.main-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-name {
+  color: #252525;
+  font-weight: 900;
+}
+
+.card-image {
+  border-radius: 5px;
+  transform: scale(0.9);
+  width: 100%;
+}
+
+.card-info {
+  color: #464646;
+  flex-grow: 1;
+  font-size: 20px;
+  text-align: center;
+  transform: scale(0.8);
+}
+
+.card-rating {
+  align-items: center;
+  align-self: flex-end;
+  background-color: beige;
+  border-radius: 100%;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-right: 20px;
+  width: 50px;
+}
+
+.card-link {
+  color: #252525;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  color: #606060;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.main-div {
+  align-items: center;
+  background-color: #464646;
+  color: #969696;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  overflow: hidden;
+  text-align: center;
+  transform: scale(0.95);
+  width: 100vw;
+}
+
+.main-image {
+  box-shadow: 0.1px 5px 5px black;
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100vw;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.main-buttons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.button-goback {
+  align-items: center;
+  background-color: #2b7c85;
+  border-radius: 5px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  transition: 0.5s;
+  width: 3em;
+}
+
+.button-goback:hover {
+  align-items: center;
+  background-color: #5885af;
+  border-radius: 100px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  transition: 0.5s;
+  width: 3em;
+}
+
+.button-goback a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button-edit {
+  align-items: center;
+  background-color: #41729f;
+  border-radius: 5px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  transition: 0.5s;
+  width: 3em;
+}
+
+.button-edit:hover {
+  align-items: center;
+  background-color: #41729f;
+  border-radius: 100px;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  transition: 0.5s;
+  width: 3em;
+}
+
+.button-edit a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.loading-page {
+  align-items: center;
+  animation: loadIng 1s linear infinite alternate;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+@keyframes loadIng {
+
+  0% {
+    color: white;
+    font-size: 5em;
+  }
+
+  50% {
+    color: rgb(70, 70, 70);
+    font-size: 4.5em;
+  }
+
+  100% {
+    color: white;
+    font-size: 5em;
+  }
+}

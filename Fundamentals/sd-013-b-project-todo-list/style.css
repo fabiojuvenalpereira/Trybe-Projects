@@ -1,0 +1,42 @@
+#conteudo {
+  display: inline-block;
+  margin-top: 1em;
+}
+
+#texto-tarefa {
+  border-radius: 5px;
+}
+
+#criar-tarefa {
+  border: none;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: darkgray;
+  color: white;
+  align-items: center;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+#conteudo-lista {
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 50%;
+}
+
+#apaga-tudo {
+  margin-top: 1em;
+}
+
+.selected {
+  background-color: gray;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.completed {
+  text-decoration: line-through;
+}

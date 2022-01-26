@@ -50,7 +50,7 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 - [x] _[Project - Commerce](Back-End/sd-013-b-mongodb-commerce)_
 - [x] _[Project - Aggregations](Back-End/sd-013-c-mongodb-aggregations)_
 - [x] _[Project - Talker Manager](Back-End/sd-013-c-project-talker-manager)_
-- [ ] _[Project - Store Manager]()_
+- [ ] _[Project - Store Manager](Back-End/sd-013-c-store-manager)_
 - [ ] _[Project - Cookmaster]()_
 - [ ] _[Project - Stranger Things]()_
 - [ ] _[Project - Blog API]()_

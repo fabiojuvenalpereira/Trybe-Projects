@@ -30,27 +30,26 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 
 ## Front-end Development :white_check_mark:
 
-- [x] _[Project - Movie Cards Library](Front-end/01-movie-cards-library)_
-- [x] _[Project - Movie Cards Library Stateful](Front-end/02-movie-cards-library-stateful)_
-- [x] _[Project - Movie Cards Library CRUD](Front-end/03-movie-cards-library-crud)_
-- [x] _[Project - Frontend Online Store](Front-end/04-frontend-online-store)_
-- [x] _[Project - React Testing Library](Front-end/05-react-testing-library)_
-- [x] _[Project - Trybe Wallet](Front-end/06-trybewallet)_
-- [x] _[Project - Trivia Game](Front-end/07-trivia-react-redux)_
-- [x] _[Project - Star Wars Planet Search](Front-end/08-starwars-planets-search)_
-- [x] _[Project - Tryunfo](Front-end/09-tryunfo-beta)_ (Extra)
-- [x] _[Project - Recipes App](Front-end/10-recipes-app)_
+- [x] _[Project - Movie Cards Library](Front-End/sd-013-b-project-movie-cards-library)_
+- [x] _[Project - Movie Cards Library Stateful](Front-End/sd-013-b-project-movie-cards-library-stateful)_
+- [x] _[Project - Movie Cards Library CRUD](Front-End/sd-013-b-project-movie-card-library-crud)_
+- [x] _[Project - Frontend Online Store](Front-End/sd-013-b-project-frontend-online-store)_
+- [x] _[Project - React Testing Library](Front-End/sd-013-b-project-react-testing-library)_
+- [x] _[Project - Trybe Wallet](Front-End/sd-013-b-project-trybewallet)_
+- [x] _[Project - Trivia Game](Front-End/sd-013-b-project-trivia-react-redux)_
+- [x] _[Project - Star Wars Planet Search](Front-End/sd-013-b-project-starwars-planets-search)_
+- [x] _[Project - Recipes App](Front-End/sd-013-b-project-recipes-app)_
 
 ## Back-end Development :hourglass_flowing_sand:
 
-- [x] _[Project - All For One](Back-end/01-all-for-one)_
-- [x] _[Project - Vocabulary Booster](Back-end/02-vocabulary-booster)_
-- [x] _[Project - One For All](Back-end/03-one-for-all)_
-- [x] _[Project - Docker Todo List](Back-end/04-docker-todo-list)_
-- [x] _[Project - Mongodb Data Flights](Back-end/05-mongodb-dataflights)_
-- [x] _[Project - Commerce](Back-end/06-mongodb-commerce)_
-- [x] _[Project - Aggregations](Back-end/07-mongodb-aggregations)_
-- [x] _[Project - Talker Manager](Back-end/08-project-talker-manager)_
+- [x] _[Project - All For One](Back-End/sd-013-b-mysql-all-for-one)_
+- [x] _[Project - Vocabulary Booster](Back-End/sd-013-b-mysql-vocabulary-booster)_
+- [x] _[Project - One For All](Back-End/sd-013-b-mysql-one-for-all)_
+- [x] _[Project - Docker Todo List](Back-End/sd-013-b-project-docker-todo-list)_
+- [x] _[Project - Mongodb Data Flights](Back-End/sd-013-b-mongodb-dataflights)_
+- [x] _[Project - Commerce](Back-End/sd-013-b-mongodb-commerce)_
+- [x] _[Project - Aggregations](Back-End/sd-013-c-mongodb-aggregations)_
+- [x] _[Project - Talker Manager](Back-End/sd-013-c-project-talker-manager)_
 - [ ] _[Project - Store Manager]()_
 - [ ] _[Project - Cookmaster]()_
 - [ ] _[Project - Stranger Things]()_

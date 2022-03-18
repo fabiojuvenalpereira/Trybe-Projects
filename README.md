@@ -52,10 +52,10 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 - [x] _[Project - Talker Manager](Back-End/sd-013-c-project-talker-manager)_
 - [x] _[Project - Store Manager](Back-End/sd-013-c-store-manager)_
 - [x] _[Project - Cookmaster](Back-End/sd-013-c-cookmaster)_
-- [ ] _[Project - Stranger Things]()_
-- [ ] _[Project - Blog API]()_
+- [x] _[Project - Stranger Things](Back-End/sd-013-c-stranger-things)_
+- [x] _[Project - Blog API](Back-End/sd-013-c-project-blogs-api)_
 - [ ] _[Project - Webchat]()_
-- [ ] _[Project - Delivery App]()_
+- [x] _[Project - Delivery App](Back-End/sd-013-c-project-delivery-app)_
 
 ## Computer Science :hourglass_flowing_sand:
 

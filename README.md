@@ -54,7 +54,7 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 - [x] _[Project - Cookmaster](Back-End/sd-013-c-cookmaster)_
 - [x] _[Project - Stranger Things](Back-End/sd-013-c-stranger-things)_
 - [x] _[Project - Blog API](Back-End/sd-013-c-project-blogs-api)_
-- [ ] _[Project - Webchat]()_
+<!-- - [x] _[Project - Webchat] (opcional) ()_ -->
 - [x] _[Project - Delivery App](Back-End/sd-013-c-project-delivery-app)_
 
 ## Computer Science :hourglass_flowing_sand:

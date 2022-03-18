@@ -1,0 +1,35 @@
+.seeCartButton {
+  background-color: #044e8b;
+  border-radius: 8px;
+  bottom: 0;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.537);
+  color: white;
+  display: flex;
+  font-size: 1em;
+  justify-content: center;
+  margin-bottom: 3em;
+  margin-right: 3em;
+  padding: 2em;
+  position: fixed;
+  right: 0;
+  transition: 0.2s;
+  width: 20em;
+}
+
+.seeCartButton:disabled {
+  color: #7e8e9b;
+}
+
+.seeCartButton:hover {
+  background-color: #ddd;
+  box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.201);
+  color: black;
+  transition: 0.2s;
+}
+
+
+.seeCartButton:disabled:hover {
+  background-color: #044e8b;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.537);
+  color: #7e8e9b;
+}

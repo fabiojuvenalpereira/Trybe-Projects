@@ -1,0 +1,46 @@
+.main-content-loading {
+  align-items: center;
+  animation: entry 1.5s ease 0s normal forwards;
+  background-color: #23226b;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.main-content-loading img {
+  animation: opacity 1s ease 0s infinite normal forwards;
+  filter: invert(500%) sepia(0%) saturate(100%) hue-rotate(10deg) brightness(1000%)
+    blur(0.8px);
+  transform: scale(0.3);
+}
+
+
+@keyframes entry {
+
+  75% {
+    background-color: #23226b;
+    transition: 0.2s;
+  }
+
+  100% {
+    background-color: #fdfdfd;
+    transition: 0.2s;
+  }
+}
+
+@keyframes opacity {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

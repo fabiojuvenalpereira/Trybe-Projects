@@ -1,0 +1,117 @@
+.productCard {
+  align-content: center;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.301);
+  border-radius: 8px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.078);
+  display: flex;
+  flex-direction: column;
+  height: 20em;
+  justify-content: space-between;
+  margin: 1em;
+  object-fit: cover;
+  transition: 0.2s;
+  width: 15em;
+}
+
+.productCard:hover {
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.119);
+  transition: 0.2s;
+}
+
+.main-image {
+  border-radius: 8px 8px 0 0;
+  height: 60%;
+  transform: scale(0.99);
+  width: 100%;
+}
+
+.main-image img {
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.main-image img:hover {
+  border-radius: 0;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.475);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.name-price {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productCardPrice {
+  color: rgba(0, 0, 0, 0.708);
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-right: 0.5em;
+  margin-top: 0.2em;
+}
+
+.productCardTitle {
+  color: rgba(0, 0, 0, 0.687);
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.input-quantity {
+  display: flex;
+  justify-content: space-evenly;
+  transform: scale(0.95);
+  width: 100%;
+}
+
+.input-quantity:before {
+  content: 'Quantidade';
+  margin-left: 0.5em;
+  width: 50%;
+}
+
+.input-quantity input {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 0.5em;
+  text-align: center;
+  width: 50%;
+}
+
+.buttons-inc-dec {
+  display: flex;
+  height: 2.5em;
+  justify-content: center;
+  margin-bottom: 0.2em;
+  width: 100%;
+}
+
+
+.productCardButton {
+  background-color: #00227e;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 900;
+  height: 100%;
+  transform: scale(0.9);
+  transition: 0.2s;
+  width: 50%;
+}
+
+
+.productCardButton:hover {
+  background-color: #ddd;
+  color: black;
+  transition: 0.2s;
+}

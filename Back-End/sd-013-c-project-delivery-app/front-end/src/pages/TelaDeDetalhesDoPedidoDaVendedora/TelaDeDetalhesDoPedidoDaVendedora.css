@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+}
+
+.orderDetails {
+  background: #eaf1ef;
+  border-bottom: 1px solid #b1c2be;
+  font-weight: 600;
+  height: 45px;
+  padding: 10px;
+  width: 100%;
+}
+
+.buttonOrder {
+  background: #036b52;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  height: 35px;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.tableContainer tbody td:first-child {
+  background: #00cc9b;
+  border-radius: 5px 0 0 5px;
+  font-weight: 600;
+  height: 2rem;
+  width: 4%;
+}

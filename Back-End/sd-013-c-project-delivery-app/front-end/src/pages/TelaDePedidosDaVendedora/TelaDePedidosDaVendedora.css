@@ -1,0 +1,14 @@
+.main-content-seller {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-seller {
+  margin: 0.5em 0;
+  text-indent: 1em;
+}
+
+.seller-orders {
+  display: flex;
+  flex-flow: wrap;
+}

@@ -1,0 +1,15 @@
+.pedidos-cliente {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-pedidos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.main-content-customer {
+  margin: 0.5em 0;
+  text-indent: 1em;
+}

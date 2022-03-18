@@ -1,0 +1,11 @@
+.orderDetails {
+  background: #eaf1ef;
+  border-bottom: 1px solid #b1c2be;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  height: 45px;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+}

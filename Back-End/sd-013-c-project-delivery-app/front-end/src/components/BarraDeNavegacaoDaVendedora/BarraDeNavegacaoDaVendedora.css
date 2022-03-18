@@ -1,0 +1,36 @@
+.topnav {
+  display: flex;
+  overflow: hidden;
+}
+
+.topnav button {
+  background-color: #083c8a;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topnav button:hover {
+  background-color: #083c8a;
+  color: black;
+  font-size: 1em;
+}
+
+.meuspedidos-color {
+  background-color: #083c8a;
+  color: white;
+  font-size: 1em;
+}
+
+.nomedocliente-color {
+  background-color: #083c8a;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.sair-color {
+  background-color: #8a2b08;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+}

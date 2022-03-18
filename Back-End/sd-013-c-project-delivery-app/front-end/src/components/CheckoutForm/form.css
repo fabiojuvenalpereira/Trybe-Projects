@@ -1,0 +1,94 @@
+.form-container {
+  background-color: rgb(224, 226, 230);
+  border-radius: 10px;
+  bottom: 0;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  height: 30vh;
+  margin-bottom: 1em;
+  position: fixed;
+  transform: scale(0.98);
+  width: 100vw;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  padding-left: 5em;
+}
+
+.address-checkout input {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 3em;
+  text-indent: 1em;
+  width: 50vw;
+}
+
+.address-checkout label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.number-checkout input {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  height: 3em;
+  text-indent: 1em;
+  width: 15vw;
+}
+
+.select-seller-input select {
+  background-color: whitesmoke;
+  border-radius: 8px;
+  margin-left: 1em;
+  padding: 1em;
+  width: 10em;
+}
+
+.address-checkout input:focus, .address-checkout input:hover {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.number-checkout label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+
+.number-checkout input:focus, .number-checkout input:hover {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button-checkout button {
+  background-color: rgb(124, 152, 186);
+  border-radius: 8px;
+  bottom: 0;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  margin-right: 2em;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+}
+
+
+.button-checkout button:hover {
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.153);
+  color: whitesmoke;
+}
+
+.button-checkout button:disabled:hover {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  color: rgba(7, 7, 7, 0.229);
+}
+
+.title-form-sale {
+  font-weight: 500;
+}

@@ -1,0 +1,40 @@
+/* Template retirado de: https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav button {
+  background-color: #083c8a;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav button:hover {
+  background-color: #083c8a;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.meuspedidos-color {
+  background-color: #083c8a;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.nomedocliente-color {
+  background-color: #083c8a;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.sair-color {
+  background-color: #8a2b08;
+  color: white;
+  text-transform: uppercase;
+}

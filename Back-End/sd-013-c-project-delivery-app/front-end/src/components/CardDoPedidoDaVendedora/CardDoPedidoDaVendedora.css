@@ -1,0 +1,102 @@
+.pedido-vendedora-card {
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.475);
+  color: rgba(0, 0, 0, 0.735);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 20vh;
+  transform: scale(0.95);
+  transition: 0.2s;
+  width: 30em;
+}
+
+
+.pedido-vendedora-card:hover {
+  background-color: rgba(0, 0, 0, 0.105);
+  border-radius: 10px;
+  color: black;
+  transition: 0.2s;
+}
+
+.primary-content-card {
+  align-items: center;
+  border-right: none;
+  color: rgba(0, 0, 0, 0.598);
+  display: flex;
+  font-size: 4em;
+  justify-content: center;
+  user-select: none;
+  width: 30%;
+}
+
+.secondary-content-card {
+  background-color: rgb(240, 240, 240);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.pedido-vendedora-status {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  user-select: none;
+  width: 50%;
+}
+
+.pedido-vendedora-status-data-price {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.pedido-vendedora-data-price {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+  transform: scale(0.9);
+}
+
+.pedido-vendedora-data-price p {
+  background-color: rgb(220, 216, 210);
+  border-radius: 10px;
+  margin: 0.2em;
+  padding: 0.5em;
+}
+
+.pedido-vendedora-address {
+  align-items: flex-end;
+  display: flex;
+  height: 30%;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+  text-indent: 1em;
+}
+
+.pending {
+  background-color: rgb(250, 243, 102);
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+
+.done {
+  background-color: rgb(172, 239, 111);
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+
+.progress {
+  background-color: rgb(110, 237, 205);
+  border-radius: 10px;
+  transform: scale(0.9);
+}

@@ -1,0 +1,59 @@
+.topnav {
+  align-items: center;
+  background-color: #083c8a;
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  max-width: 80vw;
+  overflow: hidden;
+}
+
+.topnav img {
+  padding: 1em;
+  width: 5vw;
+}
+
+.topnav button {
+  color: #f2f2f2;
+  height: 100%;
+  width: 90%;
+}
+
+.topnav button:hover {
+  background-color: #0b51ba;
+  color: black;
+}
+
+.produto-color {
+  background-color: #083c8a;
+  color: white;
+  font-size: 1em;
+}
+
+.meuspedidos-color {
+  background-color: #083c8a;
+  color: white;
+  font-size: 1em;
+}
+
+.nomedocliente-color {
+  background-color: #083c8a;
+  color: white;
+  font-size: 1em;
+}
+
+.sair-color {
+  color: white;
+}
+
+.topnav button:last-child {
+  background-color: rgba(255, 119, 0, 0.735);
+  height: 100%;
+  width: 20%;
+}
+
+.topnav button:last-child:hover {
+  background-color: rgba(255, 119, 0, 0.735);
+  height: 100%;
+  width: 20%;
+}

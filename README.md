@@ -59,9 +59,9 @@ _"São mais de 1500 horas de formação que aborda fundamentos de desenvolviment
 
 ## Computer Science :hourglass_flowing_sand:
 
-- [ ] _[Project - Job Insights]()_
-- [ ] _[Project - Inventory Reports]()_
-- [ ] _[Project - Tech News]()_
-- [ ] _[Project - Algorithms]()_
-- [ ] _[Project - Restaurant Orders]()_
-- [ ] _[Project - TING - Trybe Is Not Google]()_
+- [x] _[Project - Job Insights](https://github.com/tryber/sd-013-c-project-job-insights)_
+- [x] _[Project - Inventory Reports](https://github.com/tryber/sd-013-c-inventory-report)_
+- [x] _[Project - Tech News](https://github.com/tryber/sd-013-c-tech-news)_
+- [x] _[Project - Algorithms](https://github.com/tryber/sd-013-c-project-algorithms)_
+- [x] _[Project - Restaurant Orders](https://github.com/tryber/sd-013-c-restaurant-orders)_
+<!-- - [x] _[Project - TING - Trybe Is Not Google]()_-->
